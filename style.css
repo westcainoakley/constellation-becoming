@@ -128,4 +128,31 @@ body {
 }
 Sent
 Write to
+/* --- Mobile Gallery Layout --- */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr !important;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .art-item img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .art-item p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+    .section-header {
+        font-size: 1.6rem;
+        margin-top: 50px;
+    }
+}
+Sent
+Write to
 
